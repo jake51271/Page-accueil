@@ -1,0 +1,94 @@
+{
+  "type": "umap",
+  "uri": "https://framacarte.org/fr/map/map-vence_164453#13/43.7106/7.0606",
+  "properties": {
+    "easing": true,
+    "embedControl": true,
+    "fullscreenControl": true,
+    "searchControl": true,
+    "datalayersControl": true,
+    "zoomControl": true,
+    "slideshow": {},
+    "captionBar": false,
+    "limitBounds": {},
+    "tilelayer": {},
+    "licence": "",
+    "description": "",
+    "name": "map Vence",
+    "displayPopupFooter": false,
+    "miniMap": false,
+    "moreControl": true,
+    "scaleControl": true,
+    "scrollWheelZoom": true,
+    "zoom": 11
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9504351591232245,
+      43.646557414497295
+    ]
+  },
+  "layers": [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Vence",
+            "description": "Vence 06"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  7.133773,
+                  43.746414
+                ],
+                [
+                  7.101191,
+                  43.744789
+                ],
+                [
+                  7.076852,
+                  43.734487
+                ],
+                [
+                  7.075688,
+                  43.715927
+                ],
+                [
+                  7.089722,
+                  43.707949
+                ],
+                [
+                  7.118723,
+                  43.703518
+                ],
+                [
+                  7.144734,
+                  43.708625
+                ],
+                [
+                  7.143687,
+                  43.727391
+                ],
+                [
+                  7.133773,
+                  43.746414
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "name": "Calque 1"
+      }
+    }
+  ]
+}

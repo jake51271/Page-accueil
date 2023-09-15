@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Vence-Resiliente</title>
+
+    <link rel="shortcut icon" href="logoVer.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Liaison au fichier css de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .menuNavCol {
+            height: 150px;
+        }
+
+        .col3 {
+            max-width: 100vmax;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+
+        .colB {
+            max-height: 100vmin;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+
+        /* @media screen and (max-width: 2550px) {
+            .colB {
+                max-height: 65vmin;
+                overflow-x: hidden;
+                overflow-y: auto;
+            }
+        } */
+
+
+
+        .card-group {
+            flex-flow: nowrap;
+        }
+
+        .card {
+            min-width: 250px;
+        }
+
+
+        .longLabel {
+            width: 230px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row shadow mb-3">
+            <div class="col-md-auto menuNavCol">
+                <a href="#" class="navbar-brand">
+                    <img src="logoVer.png" class="p-3 img-fluid" w-75 h-auto width="230" height="auto"
+                        alt="logo-Vence-Resiliente">
+                </a>
+            </div>
+            <div class="offset-1 col-md menuNavCol d-flex">
+                <nav class="mb-4 nav navbar navbar-expand-lg bg-light align-items-end">
+                    <ul class="nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-black" data-bs-toggle="dropdown" href="#"
+                                role="button" aria-haspopup="true" aria-expanded="false">ASSOCIATION</a>
+                            <div class="dropdown-menu align-items-middle">
+                                <a href="#" class="dropdown-item text-black">Qui sommes-nous</a>
+                                <a href="#" class="dropdown-item text-black">Adhérer</a>
+                                <a href="#" class="dropdown-item text-black">Contact</a>
+                                <a href="#" class="dropdown-item text-black">Donner</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-black" data-bs-toggle="dropdown" href="#"
+                                role="button" aria-haspopup="true" aria-expanded="false">INITIATIVES</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Initiative-1</a>
+                                <a href="#" class="dropdown-item">Initiative-2</a>
+                                <a href="#" class="dropdown-item">Initiative-3</a>
+                                <a href="#" class="dropdown-item">Initiative-4</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-black">ACTUS</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-black">AGENDA</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="col-md-auto menuNavCol d-flex ms-auto me-5 align-items-center">
+                <ul class="nav me-auto">
+
+                    <a href="" class="nav-link btn btn-outline-warning"
+                        style="color: #F39200; font-weight: 700; border:2px solid #F39200">INSCRIPTION</a>
+
+                    <a href="" class="font-weight-bold ms-3 nav-link btn btn-outline-warning"
+                        style="color: #F39200; font-weight: 700; border:2px solid #F39200">CONNEXION</a>
+                </ul>
+            </div>
+        </div>
+        <!-- ____________________________________________________________________________________________________________________________ -->
+
+        <div class="row" style=" background-color: #FDEDD6">
+            <div class="ms-5 mt-5 col-md-7 d-flex align-items-end flex-column align-self-center"> <!--col1-->
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-end">
+                        <blockquote class="blockquote" style="width: 800px;">
+                            <p class="h3 font-weight-normal" style="font-family: britannic">" <span
+                                    style="color:#9DBF21">VeR</span>
+                                (Vence
+                                Résiliente) permet
+                                à des
+                                humains de
+                                coopérer
+                                dans la réflexion et l’action pour l’émergence d’une société
+                                résiliente intégrée dans son environnement naturel."</p>
+                        </blockquote>
+                    </div>
+                    <!-- COL2 -->
+                    <div class="col-md-12 mt-4 d-flex justify-content-end" style="width: 1050px;">
+                        <a href="" class="ms-3 px-4 rounded-3 btn btn-sm btn-outline-warning"
+                            style="color: #F39200; font-weight: 700; border:2px solid #F39200">En
+                            savoir
+                            plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-auto">
+                <a href="#" class="navbar-brand">
+                    <img src="Reunion.png" class="p-3 img-fluid" h-auto width="500" height="auto"
+                        alt="img-discussion-Vence-Resiliente">
+                </a>
+            </div>
+        </div>
+        <!-- ____________________________________________________________________________________________________________________________ -->
+
+        <div class="row mb-0 mx-2 shadow my-5">
+            <div class="col-md-8 colA shadow-lg">
+                <div class="row">
+                    <div class="col-md-12 col1">
+                        <div class="actus mb-0 d-flex">
+                            <h4 class="me-auto fw-bold">NOS ACTUALITES</h4>
+                            <a class="btn btn-sm px-3 rounded-4 btn-outline-warning" href="#" role="button"
+                                style="color: #F39200; font-weight: 700; border:2px solid #F39200">Tout
+                                afficher</a>
+                        </div>
+                    </div>
+                    <hr class="featurette-divider">
+                    <div class="col-md-12 col2">
+                        <div class="actus mb-2 d-flex p-3" style="background-color: #EBEBEB;">
+                            <div class="d-inline-block"><label for="myEmail"
+                                    class="longLabel align-middle me-4">Inscrivez-vous à
+                                    la
+                                    newsletter ! :</label>
+                            </div>
+                            <input type="email" class="form-control me-4" id="myEmail" placeholder="Email">
+                            <button class="btn btn-secondary  btn-sm rounded-3 px-5" href="#" type="submit"
+                                style="background-color: #B7B7B7;">ENVOYER</button>
+                        </div>
+                    </div>
+                    <div class="col-md col3 mt-4">
+                        <div class="card-group" style="color: white;">
+                            <div class="card bg-warning border-dark">
+                                <img class="card-img-top" src="dorsoduro-01.jpg" alt="Risus Porta">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title text-black">légende photo</h5>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-black">Appel à talent !</h5>
+                                    <p class="card-text text-black">Curabitur blandit tempus porttitor. Donec sed odio
+                                        dui.
+                                        Vestibulum id
+                                        ligula porta felis euismod semper. Maecenas sed diam eget risus.</p>
+
+
+                                </div>
+                                <div class="card-footer"><a type="submit" href="https://www.leboncoin.fr/"
+                                        class="btn btn-warning stretched-link"
+                                        style="color: white; font-weight: 700; background-color: #F39200; border:2px solid #F39200">LIRE
+                                        L'ARTICLE</a>
+                                </div>
+                            </div>
+                            <div class="card ms-4 bg-success border-dark">
+                                <img class="card-img-top" src="dorsoduro-02.jpg" alt="Espace-gratuite">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title"></h5>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Espace de gratuité</h5>
+                                    <p class="card-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                                        Cum
+                                        sociis
+                                        natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+                                </div>
+                                <div class="card-footer">
+                                    <a href="https://www.wawacity.homes/" class="btn btn-warning stretched-link"
+                                        style="color: white; font-weight: 700; background-color: #F39200; border:2px solid #F39200">LIRE
+                                        L'ARTICLE</a>
+                                </div>
+                            </div>
+                            <div class="card ms-4 bg-danger border-dark">
+                                <img class="card-img-top" src="dorsoduro-03.jpg" alt="Sollicitudin Ornare Malesuada">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title"></h5>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Gratifferia</h5>
+                                    <p class="card-text">Curabitur blandit tempus porttitor. Integer posuere erat a ante
+                                        venenatis dapibus posuere velit aliquet.</p>
+
+                                </div>
+                                <div class="card-footer">
+                                    <a class="btn btn-warning stretched-link"
+                                        style="color: white; font-weight: 700; background-color: #F39200; border:2px solid #F39200"
+                                        href=https://www.youtube.com/">LIRE
+                                        L'ARTICLE</a>
+                                </div>
+                            </div>
+                            <div class="card ms-4 bg-success border-dark">
+                                <img class="card-img-top" src="dorsoduro-02.jpg" alt="Espace-gratuite">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title"></h5>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Espace de gratuité</h5>
+                                    <p class="card-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                                        Cum
+                                        sociis
+                                        natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+                                </div>
+                                <div class="card-footer">
+                                    <a href="https://www.wawacity.homes/" class="btn btn-warning stretched-link"
+                                        style="color: white; font-weight: 700; background-color: #F39200; border:2px solid #F39200">LIRE
+                                        L'ARTICLE</a>
+                                </div>
+                            </div>
+                            <div class="card ms-4 bg-warning border-dark">
+                                <img class="card-img-top" src="dorsoduro-01.jpg" alt="Risus Porta">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title text-black"></h5>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-black">Appel à talent !</h5>
+                                    <p class="card-text text-black">Curabitur blandit tempus porttitor. Donec sed odio
+                                        dui.
+                                        Vestibulum id
+                                        ligula porta felis euismod semper. Maecenas sed diam eget risus.</p>
+                                </div>
+                                <div class="card-footer"><a type="submit" href="https://www.leboncoin.fr/"
+                                        class="btn btn-warning stretched-link"
+                                        style="color: white; font-weight: 700; background-color: #F39200; border:2px solid #F39200">LIRE
+                                        L'ARTICLE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 ms-auto me-4 colB">
+                <div class="row d-flex flex-column">
+                    <div class="col-md colX">
+                        <div class="actus me-0 d-flex">
+                            <h4 class="me-auto fw-bold">AGENDA</h4>
+                            <a class="btn btn-sm px-3 rounded-4 btn-outline-warning" href="#" role="button"
+                                style="color: #F39200; font-weight: 700; border:2px solid #F39200">Tout
+                                afficher</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md colY pb-2">
+                        <div class="list-group my-5">
+                            <a href="" class="list-group-item list-group-item-action flex-column align-items-start">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">Mardi 5 Septembre</h5>
+                                    <small>Publié il y a 5 jours</small>
+                                </div>
+                                <p>Curabitur blandit tempus porttitor. Donec sed odio
+                                    dui.
+                                    Vestibulum id
+                                    ligula porta felis euismod semper. Maecenas sed diam eget risus.</p>
+                                <small>Venenatis Condimentum Fermentum Ormare</small>
+                            </a>
+                            <a href="" class="list-group-item list-group-item-action flex-column align-items-start">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">Mardi 5 Septembre</h5>
+                                    <small>Publié il y a 5 jours</small>
+                                </div>
+                                <p>Curabitur blandit tempus porttitor. Donec sed odio
+                                    dui.
+                                    Vestibulum id
+                                    ligula porta felis euismod semper. Maecenas sed diam eget risus.</p>
+                                <small>Venenatis Condimentum Fermentum Ormare</small>
+                            </a>
+                            <a href="" class="list-group-item list-group-item-action flex-column align-items-start">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">Mardi 5 Septembre</h5>
+                                    <small>Publié il y a 5 jours</small>
+                                </div>
+                                <p>Curabitur blandit tempus porttitor. Donec sed odio
+                                    dui.
+                                    Vestibulum id
+                                    ligula porta felis euismod semper. Maecenas sed diam eget risus.</p>
+                                <small>Venenatis Condimentum Fermentum Ormare</small>
+                            </a>
+                            <a href="" class="list-group-item list-group-item-action flex-column align-items-start">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">Mardi 5 Septembre</h5>
+                                    <small>Publié il y a 5 jours</small>
+                                </div>
+                                <p>Curabitur blandit tempus porttitor. Donec sed odio
+                                    dui.
+                                    Vestibulum id
+                                    ligula porta felis euismod semper. Maecenas sed diam eget risus.</p>
+                                <small>Venenatis Condimentum Fermentum Ormare</small>
+                            </a>
+                            <a href="" class="list-group-item list-group-item-action flex-column align-items-start">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">Mardi 5 Septembre</h5>
+                                    <small>Publié il y a 5 jours</small>
+                                </div>
+                                <p>Curabitur blandit tempus porttitor. Donec sed odio
+                                    dui.
+                                    Vestibulum id
+                                    ligula porta felis euismod semper. Maecenas sed diam eget risus.</p>
+                                <small>Venenatis Condimentum Fermentum Ormare</small>
+                            </a>
+                            <a href="" class="list-group-item list-group-item-action flex-column align-items-start">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">Mardi 5 Septembre</h5>
+                                    <small>Publié il y a 5 jours</small>
+                                </div>
+                                <p>Curabitur blandit tempus porttitor. Donec sed odio
+                                    dui.
+                                    Vestibulum id
+                                    ligula porta felis euismod semper. Maecenas sed diam eget risus.</p>
+                                <small>Venenatis Condimentum Fermentum Ormare</small>
+                            </a>
+                            <a href="" class="list-group-item list-group-item-action flex-column align-items-start">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">Mardi 5 Septembre</h5>
+                                    <small>Publié il y a 5 jours</small>
+                                </div>
+                                <p>Curabitur blandit tempus porttitor. Donec sed odio
+                                    dui.
+                                    Vestibulum id
+                                    ligula porta felis euismod semper. Maecenas sed diam eget risus.</p>
+                                <small>Venenatis Condimentum Fermentum Ormare</small>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row my-3">
+            <div class="col">
+                <div class="embed-responsive embed-responsive-21by9">
+                    <iframe class="embed-responsive-item"
+                        src="//framacarte.org/fr/map/new/?scaleControl=false&miniMap=true&scrollWheelZoom=true&zoomControl=true&allowEdit=false&moreControl=true&searchControl=true&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&fullscreenControl=true&locateControl=true&measureControl=true&editinosmControl=true"></iframe>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="row d-flex border border-top border-2 shadow-lg">
+                <div class="offset-1 col-5 d-flex flex-column justify-content-center" style="height: 200px;">
+                    <ul class="nav d-flex justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#" style="color: #F39200;">CGU lien</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#" style="color: #F39200;">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#" style="color: #F39200;">Adhérer</a>
+                        </li>
+                    </ul>
+                    <ul class="nav mt-3 d-flex justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#" style="color: #F39200;">Siège social</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#" style="color: #F39200;">Mentions légales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#" style="color: #F39200;">Inscription</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-auto mt-auto mb-5 ms-4">
+                    <a class="nav-link fw-bold" href="#"><img src="facebook.png" width="40" alt=""></a>
+                </div>
+                <div class="offset-1 col-4">
+                    <div class="actus mb-2 d-flex flex-column p-3 rounded-4 mt-4" style="background-color: #EBEBEB;">
+                        <div class="d-inline-block text-center mb-4"><label for="myEmail"
+                                class="longLabel me-4">Inscrivez-vous à
+                                la
+                                newsletter ! :</label>
+                        </div>
+                        <input type="email" class="form-control me-4" id="myEmail" placeholder="Email">
+                        <button class="btn btn-secondary mx-auto fw-bold w-25 btn-sm rounded-4 mt-3" href="#"
+                            type="submit" style="background-color: #F39200;">ENVOYER</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- La liaison au script JS de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        type="text/javascript"></script>
+</body>
+
+</html>
